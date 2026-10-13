@@ -1,0 +1,38 @@
+
+# Python
+__pycache__/
+*.py[cod]
+*.egg-info/
+build/
+dist/
+
+# Virtual environments
+venv/
+.venv/
+env/
+
+# IDE and OS
+.vscode/
+.idea/
+.DS_Store
+Thumbs.db
+
+# Secrets and environment files
+.env
+.env.*
+!.env.example
+secrets.toml
+
+# Logs and temporary files
+*.log
+*.tmp
+*.temp
+
+# User-uploaded images and generated predictions
+static/uploads/*
+!static/uploads/.gitkeep
+static/**/*_face.jpg
+static/**/*_annotated.jpg
+
+# Jupyter
+.ipynb_checkpoints/
